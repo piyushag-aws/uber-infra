@@ -1,8 +1,8 @@
 ## Real Time Use Cases @Uber
-* Application - eg: Surge Pricing
-* Dashboard
-* Machine Learning
-* Exploration
+* Analytical Application - eg: Surge Pricing
+* Dashboards: UberEats Restuarants Manager
+* Machine Learning: Real time prediction monitoring
+* Ad-hoc Exploration: ops automation
 
 ## Scalability Challenges
 * Scaling Data: Expotential growth in terms PetaBytes  of Data
@@ -21,8 +21,8 @@
 ## Layered Abstractions 
 * [Lowest Layer] Storage: Blog Storage Interface, Read After Write Consistency(HDFS)
 * Stream: Pub-sub interface (Apache Kafa)
-* Compute: Works with Storage and Stream processing (Flink)
-* OLAP: Provides limited SQL capability over data coming from stream or storage. (Pinot)
+* Compute: Works with Storage and Stream processing (Apache Flink)
+* OLAP: Provides limited SQL capability over data coming from stream or storage. (Apache Pinot)
 * SQL: Can work with both compute and OLAP. Full SQL query layer. (Presto)
 * Programming API: For advanced users
 * Metadata: Provides a simple interface to manage all kinds of metadata.
@@ -84,7 +84,7 @@
 
 ## All Active Strategy
 ### Active-Active
-* Replication
+* Replication in cross using uReplicator
 ### Active-Passive
 ### Data Backfill
 * Bootstrapping with historial data
@@ -109,12 +109,12 @@
 
 ## Things to Improve or Drawbacks to consider
 ### Use Completely Open Source vs some Dependencies on any Cloud providers(Hybrid Model)
-*  Manging Apache Kafka using some cloud providers like AWS vs Fully Managed Apache Kafka(DIY)
+*  **Manging Apache Kafka using some cloud providers like AWS vs Fully Managed Apache Kafka(DIY)**
   * **Pros**
     * Avoid engineering cost for mangement and re-invent the whole wheel.
     * More secure and adopt best pratices by default.
     * High availability and realiability.
   * **Cons**
     * There would be recurring cost for building custom data infrastructure. But this can be reduced with more optimized computer power as per the use cases.
-* SQL vs No-SQL
+* **SQL vs No-SQL**
    

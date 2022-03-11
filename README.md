@@ -22,7 +22,7 @@
 * [Lowest Layer] Storage: Blog Storage Interface, Read After Write Consistency(HDFS)
 * Stream: Pub-sub interface (Apache Kafa)
 * Compute: Works with Storage and Stream processing (Apache Flink)
-* OLAP: Provides limited SQL capability over data coming from stream or storage. (Apache Pinot)
+* OLAP(Online analytical processing): Provides limited SQL capability over data coming from stream or storage. (Apache Pinot)
 * SQL: Can work with both compute and OLAP. Full SQL query layer. (Presto)
 * Programming API: For advanced users
 * Metadata: Provides a simple interface to manage all kinds of metadata.

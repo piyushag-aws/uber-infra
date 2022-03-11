@@ -36,37 +36,37 @@
 * Logging
 
 ### Cluster Federation
-- Simple Discovery
-- Scale Horizontally
-- Tolerate single-cluster failure
+* Simple Discovery
+* Scale Horizontally
+* Tolerate single-cluster failure
 
 ### Dead Letter Queue(DLQ)
-- Non-blocking and lossless events processing
+* Non-blocking and lossless events processing
 
 ### Consumer Proxy
-- Proxy Layer in the middle
-- Enhancment Over Kafka Protocol
-- Take complexity away from receiver services
-- Centralize management
+* Proxy Layer in the middle
+* Enhancment Over Kafka Protocol
+* Take complexity away from receiver services
+* Centralize management
 
 ## Apache Flink for Stream Processing
-- Known for high-throughput, low-latency and fault-tolerant
-- Fink as a Service(FaaS)
-- FlinkSQL
+* Known for high-throughput, low-latency and fault-tolerant
+* Fink as a Service(FaaS)
+* FlinkSQL
 5.1) FlinkSQL
 
 ## Apache Flink @Uber - Unified Platform
-- Heterogeneous Systems
-* Job Type(SQL, FaaS, DSL)
-* Flink Version
-* Cluster Management System
-- High Availability
-* Deployment Flow
-* Dependent Systems
-- Deployment Efficiency
-* Minimum Donwtime during upgrade
-* Disaster Recovery
-* Relaibility of Ecosystem
+* Heterogeneous Systems
+  * Job Type(SQL, FaaS, DSL)
+  * Flink Version
+  * Cluster Management System
+* High Availability
+  * Deployment Flow
+  * Dependent Systems
+* Deployment Efficiency
+  * Minimum Donwtime during upgrade
+  * Disaster Recovery
+  * Relaibility of Ecosystem
 
 ## Apache Pinot
 - Distributed, columan database

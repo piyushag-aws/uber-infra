@@ -111,9 +111,9 @@
 ### Use Completely Open Source vs some Dependencies on any Cloud providers(Hybrid Model)
 *  Manging Apache Kafka using some cloud providers like AWS vs Fully Managed Apache Kafka(DIY)
   * **Pros**
-   * Avoid engineering cost for mangement and re-invent the whole wheel.
-   * More secure and adopt best pratices by default.
-   * High availability and realiability.
+    * Avoid engineering cost for mangement and re-invent the whole wheel.
+    * More secure and adopt best pratices by default.
+    * High availability and realiability.
   * **Cons**
     * There would be recurring cost for building custom data infrastructure. But this can be reduced with more optimized computer power as per the use cases.
 * SQL vs No-SQL

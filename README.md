@@ -1,12 +1,25 @@
 ## Real Time Use Cases @Uber
+* Application - eg: Surge Pricing
+* Dashboard
+* Machine Learning
+* Exploration
 
 ## Scalability Challenges
-* Scaling Data: PetaBytes  of Data
-* Scaling Use Cases
-* Scaling Users 
+* Scaling Data: Expotential growth in terms PetaBytes  of Data
+* Scaling Use Cases: New use cases from different business verticals. Eg: Dynamic Pricing
+* Scaling Users: Large user base like engineers, data scientist, PM etc.
 
-## Layered Abstractions
-* Storage: Blog Storage Interface, Read After Write Consistency(HDFS)
+## Technical Requirements
+1. Consistency - Avoid zero data lass with cross-regions and within region.
+1. Availability - 99.99% availability goal for RTI
+1. Data Freshness - Data should be eventual consistent within seconds
+1. Query Latency - For some use case p99 to be in milliseconds
+1. Scalability 
+1. Cost - Reduce cost as much as possible while maintaining above requirements always.
+1. Flexibility - Flexibility in terms of interface use. Like Programmatic vs SQL query.
+
+## Layered Abstractions 
+* [Lowest Layer] Storage: Blog Storage Interface, Read After Write Consistency(HDFS)
 * Stream: Pub-sub interface, at least one semanatices(Apache Kafa)
 * Compute: Works with Storage and Stream and provide at least one semanttices (Flink)
 * OLAP (Pinot)

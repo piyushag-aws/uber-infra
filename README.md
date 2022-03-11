@@ -69,3 +69,16 @@
 
 ## Apache Pinot
 - Full SQL Support 
+
+## All Active Strategy
+### Active-Active
+* Replication
+### Active-Passive
+### Data Backfill
+* Bootstrapping with historial data
+* Reprocessing Due to 
+  *  Bugs
+  *  Change in computation logic
+* Required for all the layers in the stack
+
+

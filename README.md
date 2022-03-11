@@ -108,6 +108,7 @@
 
 
 ## Things to Improve or Drawbacks to consider
+
 ### Use Completely Open Source with Self Manged solution(DIY) vs some Dependencies on any Cloud providers(Hybrid Model)
 * **HDFS(Hadoop Distributed File System) vs Cloud Storage(S3)**
   * Scalability: S3 is more scalable than HDFS.
@@ -120,10 +121,16 @@
     * More secure and adopt best pratices by default.
     * High availability and realiability.
   * **Cons**
-    * There would be recurring cost for building custom data infrastructure. But this can be reduced with more optimized computer power as per the use cases.## ### **SQL vs No-SQL**
+    * There would be recurring cost for building custom data infrastructure. But this can be reduced with more optimized computer power as per the use cases.## 
+
+### **SQL vs No-SQL**
+* OLAP vs DynamoDB
+* Data Replication across SQL and No-SQL Models.
+
 ### **No information mentioned in papaer about on premsis computation**
  *  Few simple ML models can be deployed on premsis.
  *  Avoid queries always to cloud for dashboard metrics 
+
 ### Others
 * Caching layer looks to be missing.
 

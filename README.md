@@ -53,7 +53,6 @@
 * Known for high-throughput, low-latency and fault-tolerant
 * Fink as a Service(FaaS)
 * FlinkSQL
-5.1) FlinkSQL
 
 ## Apache Flink @Uber - Unified Platform
 * Heterogeneous Systems
@@ -69,9 +68,9 @@
   * Relaibility of Ecosystem
 
 ## Apache Pinot
-- Distributed, columan database
-- Use cases at Uber
-* User-Facing Analystic
+* Distributed, columan database
+* Use cases at Uber
+  * User-Facing Analystic
 
 
 ## Apache Pinot - Upserts
@@ -81,7 +80,7 @@
 
 
 ## Apache Pinot
-- Full SQL Support 
+* Full SQL Support 
 
 ## All Active Strategy
 ### Active-Active

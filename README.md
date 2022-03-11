@@ -82,3 +82,15 @@
 * Required for all the layers in the stack
 
 
+## Lesson Learned
+* Open source Adoption
+  * Pros: Reduce time to market
+  * Cons: Lots of extension
+* Rapid System Development and Evolution
+* Ease of operation and Monitoring
+  * Automation Around cluster detup, dashboard, alaert  
+* Ease of User Onboarding and Debugging
+  * Data Discovery
+  * Data Audit
+  * Self Service Onboarding 
+   

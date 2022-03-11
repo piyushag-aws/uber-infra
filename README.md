@@ -109,6 +109,11 @@
 
 ## Things to Improve or Drawbacks to consider
 ### Use Completely Open Source vs some Dependencies on any Cloud providers(Hybrid Model)
+* **HDFS(Hadoop Distributed File System) vs Cloud Storage(S3)**
+  * Scalability: S3 is more scalable than HDFS.
+  * Durability: When it comes to durability, S3 has the edge over HDFS.
+  * Persistence: Data in S3 is always persistent, unlike data in HDFS. we need to do extra work in managing that.
+  * Price: S3 is more cost-efficient and likely cheaper than HDFS.
 *  **Manging Apache Kafka using some cloud providers like AWS vs Fully Managed Apache Kafka(DIY)**
   * **Pros**
     * Avoid engineering cost for mangement and re-invent the whole wheel.
@@ -117,4 +122,11 @@
   * **Cons**
     * There would be recurring cost for building custom data infrastructure. But this can be reduced with more optimized computer power as per the use cases.
 * **SQL vs No-SQL**
+* **Hybrid vs Self Managed Solution(DIY)**
+* **No information mentioned in papaer about on premsis computation**
+ *  Few simple ML models can be deployed on premsis.
+ *  Avoid queries always to cloud for dashboard metrics 
+* Caching layer looks to be missing.
+
+
    
